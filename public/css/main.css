@@ -17,12 +17,11 @@ body {
 
 .header {
   height: 95vh;
-  background-image: 
-    url("../banana_small.jpg");
+  background-image: url("../banana_small.jpg");
   background-size: cover;
   background-position: bottom;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); 
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
 }
 
 .header__text-box {
@@ -35,30 +34,31 @@ body {
 
 .header__text-box input {
   display: block;
-  margin: 0 auto .5rem auto;
+  margin: 0 auto 0.5rem auto;
 }
 
-.btn:link, .btn:visited {
+.btn:link,
+.btn:visited {
   text-transform: uppercase;
-    text-decoration: none;
-    padding: 1.5rem 4rem;
-    display: inline-block;
-    border-radius: 10rem;
-    transition: all 0.2s;
-    position: relative;
-    font-size: 1.2rem;
-    color: black;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 1.2rem;
+  color: black;
 }
 
 .btn:hover {
   transform: translateY(-0.3rem);
-  box-shadow: 0 10px 20px rgba(0,0,0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   border: solid 1px rgb(236, 235, 235);
 }
 
 .btn:active {
   transform: translateY(-0.1rem);
-  box-shadow: 0 5px 10px rgba(0,0,0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   color: black;
 }
 

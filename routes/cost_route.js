@@ -51,7 +51,6 @@ function calculateCost(arr) {
 }
 
 function costRoute(app) {
-
   app.post("/currency", (req, res) => {
     let arrayOfAllDays = [];
     const dateObject = {

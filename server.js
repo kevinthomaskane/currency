@@ -10,8 +10,8 @@ app.use(bodyParser.json());
 
 app.use(express.static("public"));
 
-require("./routes/html_routes")(app, path)
-require("./routes/cost_route")(app)
+require("./routes/html_routes")(app, path);
+require("./routes/cost_route")(app);
 
 app.listen(PORT, function() {
   console.log("App listening on PORT " + PORT);
