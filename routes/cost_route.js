@@ -5,7 +5,7 @@ const dateFns = require("date-fns");
 
 function convertDateFormatForMoment(date) {
   let newArray = [];
-  let dateArray = date.split("/");
+  const dateArray = date.split("/");
   newArray.push(dateArray[2], dateArray[0], dateArray[1]);
   const formattedDate = newArray.join("-");
   return formattedDate;
