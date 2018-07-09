@@ -78,7 +78,8 @@ function costRoute(app) {
         formattedEndDate.day
       )
     );
-    for (let i = 0; i < datefns.length; i++) {
+    console.log(datefns)
+    for (let i = 0; i < datefns.length - 1; i++) {
       let newFormat = dateFns.format(datefns[i], "dddd D");
       arrayOfAllDays.push(newFormat);
     }

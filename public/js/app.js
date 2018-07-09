@@ -3,8 +3,9 @@ $(".btn").on("click", () => {
     startDate: $("#startDate").val(),
     numberOfDays: $("#numberOfDays").val()
   }).then(res => {
-    $("#append-to-me").append(res);
+    $("#append-to-me").text("");
     $("#startDate").val("");
     $("#numberOfDays").val("");
+    $("#append-to-me").append(res);
   });
 });
